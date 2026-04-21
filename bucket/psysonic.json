@@ -1,0 +1,35 @@
+{
+    "version": "1.43.0",
+    "description": "A lean desktop music player for Subsonic API-compatible servers. Connect to Navidrome, Gonic, or Airsonic — and keep full control over your music library.",
+    "homepage": "https://www.psysonic.de/",
+    "license": {
+        "identifier": "GPL-3",
+        "url": "https://www.gnu.org/licenses/gpl-3.0.de.html"
+    },
+    "installer": {
+        "keep": true,
+        "args": [
+            "/S"
+        ]
+    },
+    "uninstaller": {
+        "file": "uninstall.exe",
+        "args": [
+        ]
+    },
+    "url": "https://github.com/Psychotoxical/psysonic/releases/download/app-v1.43.0/Psysonic_1.43.0_x64-setup.exe",
+    "shortcuts": [
+        [
+            "%appdata%\\..\\Local\\Psysonic\\psysonic.exe",
+            "Psysonic"
+        ]
+    ],
+    "hash": "6DFFD16FA3E15482FF28B803DED02C841BE125B09C9DE131518F4246C0982BD0",
+    "checkver": {
+        "url": "https://www.jabra.com/software-and-services/jabra-direct",
+        "regex": "<span class=\"version-number\">([0-9.]+?)</span>"
+    },
+    "autoupdate": {
+        "url": "https://github.com/Psychotoxical/psysonic/releases/download/app-v$version/Psysonic_$version_x64-setup.exe"
+    }
+}
