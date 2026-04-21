@@ -16,12 +16,13 @@
     "uninstaller": {
         "file": "uninstall.exe",
         "args": [
+            "/S"
         ]
     },
     "url": "https://github.com/Psychotoxical/psysonic/releases/download/app-v1.43.0/Psysonic_1.43.0_x64-setup.exe",
     "shortcuts": [
         [
-            "$dir\\psysonic.exe",
+            "psysonic.exe",
             "Psysonic"
         ]
     ],
