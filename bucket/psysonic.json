@@ -27,6 +27,9 @@
         ]
     ],
     "hash": "6DFFD16FA3E15482FF28B803DED02C841BE125B09C9DE131518F4246C0982BD0",
+    "checkver": {
+        "github": "https://github.com/Psychotoxical/psysonic"
+    },
     "autoupdate": {
         "url": "https://github.com/Psychotoxical/psysonic/releases/download/app-v$version/Psysonic_$version_x64-setup.exe"
     }
