@@ -1,5 +1,5 @@
 {
-    "version": "1.43.0",
+    "version": "1.44.0",
     "description": "A lean desktop music player for Subsonic API-compatible servers. Connect to Navidrome, Gonic, or Airsonic — and keep full control over your music library.",
     "homepage": "https://www.psysonic.de/",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Psychotoxical/psysonic/releases/download/app-v1.43.0/Psysonic_1.43.0_x64-setup.exe",
-            "hash": "6DFFD16FA3E15482FF28B803DED02C841BE125B09C9DE131518F4246C0982BD0"
+            "url": "https://github.com/Psychotoxical/psysonic/releases/download/app-v1.44.0/Psysonic_1.44.0_x64-setup.exe",
+            "hash": "5e995e14b3597c1d882ab99d29d20b3a312cfd46a49ac6dae5a9d084caf80109"
         }
     },
     "installer": {
