@@ -11,7 +11,7 @@
             "url": "https://github.com/Psychotoxical/psysonic/releases/download/app-v1.43.0/Psysonic_1.43.0_x64-setup.exe",
             "hash": "6DFFD16FA3E15482FF28B803DED02C841BE125B09C9DE131518F4246C0982BD0"
         }
-    }
+    },
     "installer": {
         "args": [
             "/S",
@@ -29,7 +29,8 @@
         "args": "/S"
     },
     "checkver": {
-        "github": "https://github.com/Psychotoxical/psysonic"
+        "url": "https://github.com/Psychotoxical/psysonic",
+        "regex": "Psysonic v([\\d.]+)"
     },
     "autoupdate": {
         "url": "https://github.com/Psychotoxical/psysonic/releases/download/app-v$version/Psysonic_$version_x64-setup.exe"
