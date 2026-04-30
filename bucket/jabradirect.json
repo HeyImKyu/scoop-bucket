@@ -31,8 +31,8 @@
     ],
     "hash": "675912AACC8C90877619CACE8B1CCE30E2000ADC3BF123E7A06E015C7D1F8F84",
     "checkver": {
-        "url": "https://www.jabra.com/software-and-services/jabra-direct",
-        "regex": "<span class=\"version-number\">([0-9.]+?)</span>"
+        "url": "https://www.jabra.com/Support/release-notes/release-note-jabra-direct",
+        "regex": "data-testid=\"release-version\">([\\d.]+)"
     },
     "autoupdate": {
         "url": "https://jabraxpressonlineprdstor.blob.core.windows.net/jdo/JabraDirectSetup.exe"
