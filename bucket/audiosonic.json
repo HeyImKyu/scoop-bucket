@@ -1,0 +1,38 @@
+{
+    "version": "1.0.0",
+    "description": "Audiobook App :3",
+    "homepage": "https://github.com/HeyImKyu/AudioSonic",
+    "license": {
+        "identifier": "GPL-3.0-or-later",
+        "url": "https://spdx.org/licenses/GPL-3.0-or-later.html"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/HeyImKyu/AudioSonic/releases/download/v1.0.0/audiosonic_1.0.0_x64-setup.exe",
+            "hash": "d70c68600848b942aa58664077cd75a141835e43d4c06ad929487b0243170a77"
+        }
+    },
+    "installer": {
+        "args": [
+            "/S",
+            "/D=$dir"
+        ]
+    },
+    "shortcuts": [
+        [
+            "audiosonic.exe",
+            "AudioSonic"
+        ]
+    ],
+    "uninstaller": {
+        "file": "uninstall.exe",
+        "args": "/S"
+    },
+    "checkver": {
+        "url": "https://github.com/HeyImKyu/AudioSonic",
+        "regex": "Release ([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/HeyImKyu/AudioSonic/releases/download/v$version/audiosonic_$version_x64-setup.exe"
+    }
+}
