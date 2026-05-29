@@ -1,5 +1,5 @@
 {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Audiobook App :3",
     "homepage": "https://github.com/HeyImKyu/AudioSonic",
     "license": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/HeyImKyu/AudioSonic/releases/download/v1.0.0/audiosonic_1.0.0_x64-setup.exe",
-            "hash": "d70c68600848b942aa58664077cd75a141835e43d4c06ad929487b0243170a77"
+            "url": "https://github.com/HeyImKyu/AudioSonic/releases/download/v1.0.1/audiosonic_1.0.1_x64-setup.exe",
+            "hash": "187ef5d984c73a7f78ea11086a2f29274f2d93aad3a3d15064376f24e134b17c"
         }
     },
     "installer": {
