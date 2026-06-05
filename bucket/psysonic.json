@@ -14,8 +14,8 @@
     },
     "installer": {
         "args": [
-            "/S",
-            "/D=$dir"
+            "/VERYSILENT",
+            "/DIR=$dir"
         ]
     },
     "shortcuts": [
@@ -25,8 +25,8 @@
         ]
     ],
     "uninstaller": {
-        "file": "uninstall.exe",
-        "args": "/S"
+        "file": "unins000.exe",
+        "args": "/VERYSILENT"
     },
     "checkver": {
         "url": "https://github.com/Psychotoxical/psysonic",
