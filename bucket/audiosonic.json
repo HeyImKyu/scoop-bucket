@@ -29,7 +29,7 @@
         "args": "/S"
     },
     "checkver": {
-        "url": "https://github.com/HeyImKyu/AudioSonic",
+        "url": "https://github.com/HeyImKyu/AudioSonic/releases/latest",
         "regex": "Release ([\\d.]+)"
     },
     "autoupdate": {

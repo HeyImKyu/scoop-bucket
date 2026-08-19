@@ -20,7 +20,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://github.com/Psychotoxical/psysonic",
+        "url": "https://github.com/Psychotoxical/psysonic/releases/latest",
         "regex": "Psysonic v([\\d.]+)"
     },
     "autoupdate": {
