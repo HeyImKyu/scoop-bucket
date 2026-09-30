@@ -1,5 +1,5 @@
 {
-    "version": "8.2.23201",
+    "version": "8.3.26701",
     "description": "Jabra Direct is a software application designed for managing and customizing Jabra audio devices, including headsets and speakerphones. It provides users with advanced control over their Jabra devices, allowing them to adjust settings, update firmware, and configure device features according to their preferences.",
     "homepage": "https://www.jabra.com/software-and-services/jabra-direct",
     "license": {
@@ -29,7 +29,7 @@
             "Jabra Direct"
         ]
     ],
-    "hash": "c1d2c1890be8eaca18a5db775d5efbc3a3c54bdb4c907a5e6399562a8d7c2387",
+    "hash": "bb940fd3eb545323515ea6abd251c707e4ad372b92b7b1ed6807b09cba00ad54",
     "checkver": {
         "url": "https://www.jabra.com/Support/release-notes/release-note-jabra-direct",
         "regex": "data-testid=\"release-version\">([\\d.]+)"
